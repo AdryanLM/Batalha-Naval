@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Batalha Naval</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Batalha Naval</h1>
+    <div id="board-container" class="board"></div>
+    <div class="controls">
+      <button id="easy-btn" class="control-button">Fácil</button>
+      <button id="hard-btn" class="control-button">Difícil</button>
+      <button id="start-btn" class="control-button">Iniciar/Reiniciar</button>
+      <div id="score-container" class="hidden score-container">
+        <p>Score do Jogador: <span id="player-score">0</span></p>
+        <p>Score da Máquina: <span id="machine-score">0</span></p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
